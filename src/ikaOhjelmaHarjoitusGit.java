@@ -5,12 +5,17 @@ public class ikaOhjelmaHarjoitusGit {
 		// TODO Auto-generated method stub
 
 		
-		int ika = 70;
+		int ika = 17;
 		
 		if (ika >= 0 && ika < 18)
 		{
 			System.out.println("Olet alaikäinen");
 		}
+		
+			if (ika >= 15)
+			{
+				System.out.println("Saat ajaa mopoa");
+			}
 		
 		else if (ika>= 65)
 			
