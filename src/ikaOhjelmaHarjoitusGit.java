@@ -5,7 +5,7 @@ public class ikaOhjelmaHarjoitusGit {
 		// TODO Auto-generated method stub
 
 		
-		int ika = 58;
+		int ika = 65;
 		
 		if (ika >= 0 && ika < 18)
 		{
@@ -40,6 +40,11 @@ public class ikaOhjelmaHarjoitusGit {
 				System.out.println("Paljon");
 				System.out.println("onnea");
 				System.out.println("100-vuotiaalle");
+			}
+			if (ika == 65)
+			
+			{
+				System.out.println("Hyviä ekäkepäiviä");
 			}
 		
 		else
