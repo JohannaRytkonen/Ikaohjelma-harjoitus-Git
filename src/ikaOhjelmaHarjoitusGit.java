@@ -5,7 +5,7 @@ public class ikaOhjelmaHarjoitusGit {
 		// TODO Auto-generated method stub
 
 		
-		int ika = 18;
+		int ika = 80;
 		
 		if (ika >= 0 && ika < 18)
 		{
@@ -29,6 +29,11 @@ public class ikaOhjelmaHarjoitusGit {
 		{
 			System.out.println("Olet eläkeläinen");
 		}
+			if (ika == 70 || ika == 80 || ika == 90)
+				
+			{
+				System.out.println("Onnea tasavuosista!");
+			}
 		
 		else
 		{
@@ -39,6 +44,12 @@ public class ikaOhjelmaHarjoitusGit {
 				
 			{
 				System.out.println("Olet tullut täysi-ikäiseksi ja saat ajaa autoa");
+			}
+			
+			if (ika == 20 || ika == 30 || ika == 40 || ika == 50 || ika == 60)
+			
+			{
+				System.out.println("Onnea tasavuosista!");
 			}
 	}
 
